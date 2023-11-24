@@ -45,7 +45,9 @@
 }
 @media (min-width:320px) and (max-width: 760px) {
     .header-wrap {
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
 }
 .header_logo-wrap{
@@ -207,4 +209,3 @@
         top: 300%;
     }
 }
-

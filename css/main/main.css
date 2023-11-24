@@ -37,7 +37,10 @@
 }
 @media (min-width: 320px) and (max-width: 760px) {
     .main_wrap {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
 }
 
@@ -71,8 +74,8 @@
 .main_tagline-header2{
     width: 247px;
     font-size: 48px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FCB045), to(#FF3F78));
     background-image: -o-linear-gradient(left, #FCB045, #FF3F78);
+    background-image: -webkit-gradient(linear, left top, right top, from(#FCB045), to(#FF3F78));
     background-image: linear-gradient(90deg, #FCB045, #FF3F78);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -127,8 +130,8 @@
 .gift_header>span{
     font-weight: 700;
     font-size: 18px;
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(36.99%, #FCB045), to(#FD1D1D));
     background-image: -o-linear-gradient(left, #FCB045 36.99%, #FD1D1D 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(36.99%, #FCB045), to(#FD1D1D));
     background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -314,8 +317,8 @@
         -o-border-image: -o-linear-gradient(left, #FCB045 36.99%, #FD1D1D 100%);
            border-image: -webkit-gradient(linear, left top, right top, color-stop(36.99%, #FCB045), to(#FD1D1D));
            border-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
-        background: -webkit-gradient(linear, left top, right top, color-stop(36.99%, #FCB045), to(#FD1D1D));
         background: -o-linear-gradient(left, #FCB045 36.99%, #FD1D1D 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(36.99%, #FCB045), to(#FD1D1D));
         background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
         -webkit-text-fill-color: transparent;
     }

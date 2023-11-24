@@ -41,9 +41,14 @@
 }
 @media (min-width: 451px) and (max-width: 760px) {
     .footer_wrap {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-left: 15px;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 
@@ -100,7 +105,9 @@
 
 @media (min-width: 320px) and (max-width: 760px) {
     .footer_contact {
-        align-items: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
     }
 }
 
