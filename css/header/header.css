@@ -43,6 +43,11 @@
       position: fixed;
     }
 }
+@media (min-width:320px) and (max-width: 760px) {
+    .header-wrap {
+      justify-content: center;
+    }
+}
 .header_logo-wrap{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -62,6 +67,12 @@
 
 .logo-description{
     font-size: 10px;
+}
+
+@media (min-width:321px) and (max-width: 760px) {
+    .header_nav-menu {
+      display: none
+    }
 }
 
 .nav_links-wrap{
@@ -90,6 +101,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+@media only screen and (max-width: 1150px) {
+    .header_contacts{
+        display: none;
+    }
 }
 @media only screen and (max-width: 320px) {
     .header_contacts {
@@ -176,4 +192,10 @@
         display: none;
     }
     
+}
+@media (min-width: 320px) and (max-width: 760px) {
+    .red_ball {
+      left: 10%;
+      z-index: -1;
+    }
 }

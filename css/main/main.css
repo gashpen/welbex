@@ -35,6 +35,11 @@
       background: var(--black, #0E1014);
     }
 }
+@media (min-width: 320px) and (max-width: 760px) {
+    .main_wrap {
+      flex-direction: column;
+    }
+}
 
 .main_tagline-welbex{
     display: -webkit-box;
@@ -142,7 +147,7 @@
     background: #961A1A;
     -webkit-filter: blur(196px);
             filter: blur(196px);
-    z-index: 0;
+    z-index: 10;
 }
 .purple_light{
     display: none;
@@ -200,6 +205,11 @@
 .gift{
    text-align: end;
    margin-left: 30px;
+}
+@media (min-width: 321px) and (max-width: 450px) {
+    .gift {
+      text-align: start;
+    }
 }
 @media only screen and (max-width: 320px) {
     .gift {
@@ -270,6 +280,7 @@
     height: 61px;
     background: #4077F3;
     border: none;
+    cursor: pointer;
 }
 @media only screen and (max-width: 320px) {
     .get_consultation {
@@ -280,7 +291,12 @@
 .main_red_ball{
     position: absolute;
     bottom: 0;
-    right: 39vw;
+    right: 40%;
+}
+@media (min-width: 321px) and (max-width: 760px) {
+    .main_red_ball{
+        display: none;
+    }
 }
 @media only screen and (max-width: 320px) {
     .main_red_ball {
@@ -288,6 +304,7 @@
         bottom: -15px;
     }
 }
+
 @media only screen and (max-width: 320px) {
     .line{
         margin-right: 5px;
