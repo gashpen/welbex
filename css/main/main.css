@@ -25,7 +25,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .main_wrap {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -62,7 +62,7 @@
     font-weight: 400;
     line-height: normal;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .main_tagline-header1 {
       font-size: 36px;
     }
@@ -105,7 +105,7 @@
       -ms-flex-align: end;
           align-items: end;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .main_gift {
         -webkit-box-align: start;
             -ms-flex-align: start;
@@ -117,7 +117,7 @@
     text-align: end;
     font-weight: 500;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .gift_header {
       margin-top: 45px;  
       text-align: start;
@@ -152,7 +152,7 @@
 .purple_light{
     display: none;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .red_light {
       left: -50%;
     }
@@ -211,7 +211,7 @@
       text-align: start;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .gift {
      text-align: center;
      font-size: 13px;
@@ -240,7 +240,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .gift_name{
         color: var(--light-text, #E4E5EA);
         font-family: Montserrat;
@@ -266,7 +266,7 @@
     line-height: normal;
     font-family: 'Montserrat', sans-serif;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .gift_desc {
       display: none;
     }
@@ -282,7 +282,7 @@
     border: none;
     cursor: pointer;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .get_consultation {
         display: none;
     }
@@ -305,7 +305,7 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .line{
         margin-right: 5px;
         width: 10px;

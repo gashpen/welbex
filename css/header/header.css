@@ -10,7 +10,7 @@
     position: relative;
     padding: 0 15px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .header {
       margin: 0;
       padding: 0;
@@ -31,7 +31,7 @@
     z-index: 5;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .header-wrap {
       width: 320px;
       background: var(--black, #0E1014);
@@ -59,7 +59,7 @@
     margin: 0 1vw 0 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .header_logo-wrap {
       display: none
     }
@@ -69,7 +69,7 @@
     font-size: 10px;
 }
 
-@media (min-width:321px) and (max-width: 760px) {
+@media (min-width:500px) and (max-width: 760px) {
     .header_nav-menu {
       display: none
     }
@@ -92,7 +92,7 @@
       text-transform: uppercase;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     .nav_link:last-child {
       display: none;
     }
@@ -173,7 +173,7 @@
     width: 83px;
     height: 83px;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .red_ball{
@@ -182,7 +182,7 @@
     border-radius: 50%;
     position: absolute;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 499px) {
     .purple_ball{
         top: 328px;
         left: 263px;
@@ -193,9 +193,18 @@
     }
     
 }
-@media (min-width: 320px) and (max-width: 760px) {
+@media (min-width: 500px) and (max-width: 760px) {
     .red_ball {
       left: 10%;
+      top: 650%;
       z-index: -1;
     }
 }
+
+@media (min-width: 499px) and (max-width: 760px) {
+    .purple_ball{
+        right: 10%;
+        top: 300%;
+    }
+}
+
